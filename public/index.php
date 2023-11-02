@@ -11,6 +11,8 @@
                         <form method="POST" action="handle.php" class="head__navbar-form">
                            <div class="head__navbar-form-table">
                                 <h2>Chọn bảng cần thao tác</h2>
+                                <div class="form-table-content">
+                                    
                                 <input type="radio" id="table1" name="table" value="Hàng Hóa">
                                 <label for="table1">Hàng Hóa</label><br>
 
@@ -25,6 +27,7 @@
 
                                 <input type="radio" id="table5" name="table" value="Phiếu xuất">
                                 <label for="table5">Phiếu xuất</label><br>
+                                </div>
                            </div>
 
                            <div class="head__navbar-form-action">

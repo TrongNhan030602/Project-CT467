@@ -68,7 +68,11 @@ html {
 }
 
 .head__navbar-form-table {
-    transform: translate(10px, 10px);
+    transform: translateY(10px);
+}
+
+.head__navbar-form-action {
+    transform: translateY(-10px);
 }
 
 .head__navbar-form-btn {
@@ -83,4 +87,32 @@ html {
 
 .head__navbar-form-btn .reset-btn {
     transform: translateX(2rem);
+}
+
+
+/* Tạo kiểu cho radio button tùy chỉnh */
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]+label {
+    display: inline-block;
+    padding: 5px 10px;
+    font-family: Arial, sans-serif;
+    font-size: 1.4rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 12rem;
+    max-width: 14rem;
+    text-align: center;
+}
+
+
+/* Tạo kiểu cho radio button khi được chọn */
+
+input[type="radio"]:checked+label {
+    background-color: #5899DE;
+    color: #fff;
 }

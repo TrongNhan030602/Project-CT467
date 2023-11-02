@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST["table"]) && !empty($_
 }
 else {
     header('location: index.php');
-    echo 'Bạn phải chọn cả bảng và thao tác';
+   
 }
 
 
